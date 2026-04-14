@@ -87,29 +87,15 @@
       margin: 26px 0 18px;
     }
 
-    figure img {
+    .flourish-embed {
       width: 100%;
-      height: auto;
-      display: block;
-      border: 1px solid var(--line);
-      border-radius: 6px;
-      background: #fff;
+      margin: 20px 0;
     }
 
     figcaption {
       margin-top: 10px;
       font-size: 0.98rem;
       color: var(--text);
-    }
-
-    .section-intro {
-      color: var(--muted);
-    }
-
-    .divider {
-      height: 1px;
-      background: var(--line);
-      margin: 44px 0 0;
     }
 
     .note {
@@ -178,7 +164,9 @@
       <h2>Overall Trends — My March Activity Trajectory</h2>
 
       <figure>
-        <img src="figure1.png" alt="Daily Step Count Over Time from March 1 to March 30, 2026">
+        <div class="flourish-embed flourish-chart" data-src="visualisation/28428889">
+          <noscript><img src="https://public.flourish.studio/visualisation/28428889/thumbnail" width="100%" alt="Daily Step Count Over Time" /></noscript>
+        </div>
         <figcaption><strong>Figure 1.</strong> Daily Step Count Over Time (March 1–30, 2026). This line chart shows significant fluctuations in daily step count, with peaks corresponding to days involving travel or gym activity, and low values occurring on unstructured days with minimal movement.</figcaption>
       </figure>
 
@@ -193,7 +181,9 @@
       <p>In this data set, dates are categorized as “weekdays” and “weekends.” Weekdays include Monday through Friday, while weekends only include Saturdays and Sundays. This classification is based on the standard calendar structure and is used to examine how time structure influences patterns in the data.</p>
 
       <figure>
-        <img src="figure2.png" alt="Average Step Count on Weekdays versus Weekends">
+        <div class="flourish-embed flourish-chart" data-src="visualisation/28523474">
+          <noscript><img src="https://public.flourish.studio/visualisation/28523474/thumbnail" width="100%" alt="Average Step Count on Weekdays vs Weekends" /></noscript>
+        </div>
         <figcaption><strong>Figure 2.</strong> Average Step Count on Weekdays vs Weekends. This bar chart compares the average daily step count between weekdays and weekends, showing that activity levels are higher on weekdays (8,012 steps) than on weekends (6,414 steps).</figcaption>
       </figure>
 
@@ -206,7 +196,9 @@
       <p>In contrast, although there is more free time on weekends, it is also more likely to lack structure. If I don't arrange exercise or go out in advance, I tend to reduce the amount of activity, which leads to a lower step count.</p>
 
       <figure>
-        <img src="figure3.png" alt="Average Screen Time on Weekdays versus Weekends">
+        <div class="flourish-embed flourish-chart" data-src="visualisation/28523558">
+          <noscript><img src="https://public.flourish.studio/visualisation/28523558/thumbnail" width="100%" alt="Average Screen Time on Weekdays vs Weekends" /></noscript>
+        </div>
         <figcaption><strong>Figure 3.</strong> Average Screen Time on Weekdays vs Weekends. This bar chart illustrates that screen time is higher on weekdays (approximately 11 hours) compared to weekends (approximately 9 hours), suggesting that digital usage is largely driven by academic activities during the week.</figcaption>
       </figure>
 
@@ -219,7 +211,9 @@
       <p>This pattern further suggests that my screen time does not depend entirely on "self-control", but is largely influenced by the structure of daily tasks.</p>
 
       <figure>
-        <img src="figure4.png" alt="Average Mood Score on Weekdays versus Weekends">
+        <div class="flourish-embed flourish-chart" data-src="visualisation/28446310">
+          <noscript><img src="https://public.flourish.studio/visualisation/28446310/thumbnail" width="100%" alt="Average Mood Score on Weekdays vs Weekends" /></noscript>
+        </div>
         <figcaption><strong>Figure 4.</strong> Average Mood Score on Weekdays vs Weekends. This bar chart illustrates that mood scores are higher on weekends (approximately 6) compared to weekdays (approximately 5), suggesting that reduced academic pressure and increased autonomy may contribute to improved emotional well-being.</figcaption>
       </figure>
 
@@ -238,7 +232,9 @@
       <h3>Finding 1: There is a positive correlation between step count and mood</h3>
 
       <figure>
-        <img src="figure5.png" alt="Relationship between Step Count and Mood">
+        <div class="flourish-embed flourish-chart" data-src="visualisation/28429686">
+          <noscript><img src="https://public.flourish.studio/visualisation/28429686/thumbnail" width="100%" alt="Relationship Between Step Count and Mood" /></noscript>
+        </div>
         <figcaption><strong>Figure 5.</strong> Relationship Between Step Count and Mood. This scatter plot illustrates a positive correlation between daily step count and mood score, with higher step counts generally associated with higher mood levels. Although some variability is present, the overall upward trend suggests that increased physical activity contributes to improved emotional well-being.</figcaption>
       </figure>
 
@@ -251,7 +247,9 @@
       <h3>Finding 2: Screen time is negatively correlated with emotional well-being</h3>
 
       <figure>
-        <img src="figure6.png" alt="Relationship between Screen Time and Mood">
+        <div class="flourish-embed flourish-chart" data-src="visualisation/28445823">
+          <noscript><img src="https://public.flourish.studio/visualisation/28445823/thumbnail" width="100%" alt="Relationship Between Screen Time and Mood" /></noscript>
+        </div>
         <figcaption><strong>Figure 6.</strong> Relationship Between Screen Time and Mood. This scatter plot illustrates a negative correlation between daily screen time and mood score, with higher screen time generally associated with lower mood levels. Although some variability is present, the overall downward trend suggests that increased screen use may contribute to reduced emotional well-being.</figcaption>
       </figure>
 
@@ -264,7 +262,9 @@
       <p>This made me realize that exercise may be a key factor in determining the mood score when the screen time is similar. In other words, even if you can't reduce screen time, as long as you can maintain a certain level of physical activity, my mood may still be restored to a more positive state.</p>
 
       <figure>
-        <img src="figure7.png" alt="Average Mood Score by Day of the Week">
+        <div class="flourish-embed flourish-chart" data-src="visualisation/28453201">
+          <noscript><img src="https://public.flourish.studio/visualisation/28453201/thumbnail" width="100%" alt="Average Mood Score by Day of the Week" /></noscript>
+        </div>
         <figcaption><strong>Figure 7.</strong> Average Mood Score by Day of the Week. This line chart illustrates fluctuations in mood across the week, with the lowest average mood observed on Wednesday and the highest on Friday. This pattern suggests that the presence or absence of daily structure may significantly influence emotional well-being.</figcaption>
       </figure>
 
@@ -318,5 +318,7 @@
       <p>Generative AI tools (e.g., ChatGPT) were used to support the planning and development of this assignment, including brainstorming ideas, refining language, and improving the overall structure. The data collection, analysis, visualisations, and final conclusions presented in this work are entirely my own.</p>
     </section>
   </main>
+
+  <script src="https://public.flourish.studio/resources/embed.js"></script>
 </body>
 </html>
